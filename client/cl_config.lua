@@ -17,10 +17,10 @@ Config.BossMenus = {
         vector3(907.24, -150.19, 74.17),
     },
     ['cardealer'] = {
-        vector3(-27.47, -1107.13, 27.27),
+        vector3(-1249.37, -346.14, 38.14),
     },
     ['mechanic'] = {
-        vector3(-339.53, -156.44, 44.59),
+        vector3(124.67, -3013.81, 7.04),
     },
 }
 
@@ -38,10 +38,13 @@ Config.BossMenuZones = {
         { coords = vector3(907.24, -150.19, 74.17), length = 1.0, width = 3.4, heading = 327.0, minZ = 73.17, maxZ = 74.57 },
     },
     ['cardealer'] = {
-        { coords = vector3(-27.47, -1107.13, 27.27), length = 2.4, width = 1.05, heading = 340.0, minZ = 27.07, maxZ = 27.67 },
+        { coords = vector3(-1249.55, -346.03, 38.14), length = 1.0, width = 1.0, heading = 227.96, minZ = 37.07, maxZ = 39.67 },
     },
     ['mechanic'] = {
-        { coords = vector3(-339.53, -156.44, 44.59), length = 1.15, width = 2.6, heading = 353.0, minZ = 43.59, maxZ = 44.99 },
+        { coords = vector3(124.67, -3013.81, 7.04), length = 1.15, width = 2.6, heading = 353.0, minZ = 43.59, maxZ = 44.99 },
+    },
+    ['vanilla'] = {
+        { coords = vector3(94.59, -1292.48, 29.26), length = 1.15, width = 2.6, heading = 353.0, minZ = 43.59, maxZ = 44.99 },
     },
 }
 
@@ -61,12 +64,24 @@ Config.GangMenus = {
     ['families'] = {
         vector3(0, 0, 0),
     },
+    ['saints'] = {
+        vector3(0, 0, 0),
+    },
+    ['triads'] = {
+        vector3(0, 0, 0),
+    },
 }
 
 Config.GangMenuZones = {
-    --[[
-    ['gangname'] = {
-        { coords = vector3(0.0, 0.0, 0.0), length = 0.0, width = 0.0, heading = 0.0, minZ = 0.0, maxZ = 0.0 },
+    
+    ['saints'] = {
+        { coords = vector3(1393.95, 1160.68, 115.08), length = 1.0, width = 1.0, heading = 29.35, minZ = 114.0, maxZ = 116.0 },
     },
-    ]]
+    ['triads'] = {
+        { coords = vector3(-817.21, -699.48, 33.0), length = 1.0, width = 1.0, heading = 29.35, minZ = 32.0, maxZ = 34.0 },
+    },
+    ['professionals'] = {
+        { coords = vector3(996.98, 54.51, 74.49), length = 1.0, width = 1.0, heading = 29.35, minZ = 32.0, maxZ = 34.0 },
+    },
+    
 }
