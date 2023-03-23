@@ -81,7 +81,7 @@ Config.GangMenuZones = {
         { coords = vector3(-817.21, -699.48, 33.0), length = 1.0, width = 1.0, heading = 29.35, minZ = 32.0, maxZ = 34.0 },
     },
     ['professionals'] = {
-        { coords = vector3(996.98, 54.51, 74.49), length = 1.0, width = 1.0, heading = 29.35, minZ = 32.0, maxZ = 34.0 },
+        { coords = vector3(996.98, 54.51, 74.49), length = 1.0, width = 1.0, heading = 29.35, minZ = 74.0, maxZ = 76.0 },
     },
     
 }
